@@ -5,6 +5,17 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{875D85FD-0AC9-441F-98CB-E9FAA57F4DAB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0907CCFC-A34F-49E4-96B4-7BF3D93E4CBC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wiring", "Wiring", "{254E589E-7711-4328-BA06-F23C48FD2ACB}"
+	ProjectSection(SolutionItems) = preProject
+		Wiring\BlinkyLEDonButtonPress.fzz = Wiring\BlinkyLEDonButtonPress.fzz
+		Wiring\BlinkyLEDonButtonPress_bb.png = Wiring\BlinkyLEDonButtonPress_bb.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -36,5 +47,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{254E589E-7711-4328-BA06-F23C48FD2ACB} = {0907CCFC-A34F-49E4-96B4-7BF3D93E4CBC}
 	EndGlobalSection
 EndGlobal

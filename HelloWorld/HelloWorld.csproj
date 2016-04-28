@@ -92,10 +92,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Wiring\BlinkyLEDonButtonPress_bb.png" />
     <None Include="project.json" />
-    <None Include="README.md" />
-    <None Include="Wiring\BlinkyLEDonButtonPress.fzz" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
