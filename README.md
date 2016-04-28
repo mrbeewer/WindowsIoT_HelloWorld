@@ -1,5 +1,5 @@
 # WindowsIoT_HelloWorld
-First Windows IoT Core Test
+Windows IoT Core Testing
 
 
 #### Blink LED on App Button Press
